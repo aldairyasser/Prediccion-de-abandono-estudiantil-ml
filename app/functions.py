@@ -164,23 +164,23 @@ def coclu_eda():
     ### 🧩 4. Sesgo en base a conocimiento de negocio
 
     **📘 Perfil académico previo**
-    - *Admission grade* — indicador de preparación inicial.
-    - *Previous qualification (grade)* — rendimiento previo.
-    - *Previous qualification* — contexto educativo del alumno.
+    - *Nota de admisión* — indicador de preparación inicial.
+    - *Nota media (estudios previos)* — rendimiento previo.
+    - *Estudios previos* — contexto educativo del alumno.
 
     **👪 Contexto socio-familiar**
-    - *Mother's qualification* y *Father's qualification* — reflejan entorno educativo.
-    - *Displaced* — estudiantes desplazados pueden enfrentar más dificultades.
-    - *Marital Status* — situación familiar.
-    - *Nationality* — posibles barreras culturales o lingüísticas.
+    - *Grado de educación (Madre)* y *Grado de educación (Padre)* — reflejan entorno educativo.
+    - *¿Ha sido desplazado?* — estudiantes desplazados pueden enfrentar más dificultades.
+    - *Estado civil* — situación familiar.
+    - *Nacionalidad* — posibles barreras culturales o lingüísticas.
 
     **📚 Desempeño académico**
-    - *Curricular units 1st sem (enrolled)* — asignaturas matriculadas.
-    - *Curricular units 1st sem (approved)* — rendimiento académico .
-    - *Curricular units 1st sem (grade)* — rendimiento académico (cuantitativo).
+    - *Créditos matriculados (1re Cuatrimestre)* — asignaturas matriculadas.
+    - *Créditos aprobados (1re Cuatrimestre)* — rendimiento académico .
+    - *Nota media (1re Cuatrimestre)* — rendimiento académico (cuantitativo).
 
     **💰 Factores económicos**
-    - *Tuition fees up to date* — (Si está al día en el pago) indicador financiero clave en riesgo de abandono.
+    - *¿Está al día con el pago?* — (Si está al día en el pago) indicador financiero clave en riesgo de abandono.
 
     ### 🗂️ 5. Dataset final
 
