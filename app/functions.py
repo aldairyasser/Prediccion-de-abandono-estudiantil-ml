@@ -215,12 +215,12 @@ def predi_uni():
 
     curricular_enrolled = st.slider(
         "Curricular units 1st sem (enrolled)",
-        min_value=0, max_value=30, value=6, step=1
+        min_value=0, max_value=30, value=6, step=6
     )
 
     curricular_approved = st.slider(
         "Curricular units 1st sem (approved)",
-        min_value=0, max_value=30, value=6, step=1
+        min_value=0, max_value=30, value=6, step=6
     )
 
     curricular_grade = st.slider(
