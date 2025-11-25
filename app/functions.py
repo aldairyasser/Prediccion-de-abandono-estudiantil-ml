@@ -204,27 +204,27 @@ def predi_uni():
     # --------------------------
 
     admission_grade = st.slider(
-        "Admission grade",
+        "Nota de admisión",
         min_value=0.0, max_value=200.0, value=100.0, step=1.0
     )
 
     previous_qualification_grade = st.slider(
-        "Previous qualification (grade)",
+        "Nota media (estudios previos)",
         min_value=0.0, max_value=200.0, value=100.0, step=1.0
     )
 
     curricular_enrolled = st.slider(
-        "Curricular units 1st sem (enrolled)",
+        "Créditos matriculados (1re Cuatrimestre)",
         min_value=0, max_value=30, value=6, step=6
     )
 
     curricular_approved = st.slider(
-        "Curricular units 1st sem (approved)",
+        "Créditos aprobados (1re Cuatrimestre)",
         min_value=0, max_value=30, value=6, step=6
     )
 
     curricular_grade = st.slider(
-        "Curricular units 1st sem (grade)",
+        "Nota media (1re Cuatrimestre)",
         min_value=0.0, max_value=20.0, value=10.0, step=0.5
     )
 
@@ -253,7 +253,7 @@ def predi_uni():
     }
 
     previous_qualification = st.selectbox(
-        "Previous qualification",
+        "Estudios previos:",
         options=list(previous_qualification_options.keys()),
         format_func=lambda x: previous_qualification_options[x]
     )
@@ -296,18 +296,18 @@ def predi_uni():
     }
 
     mother_qualification = st.selectbox(
-        "Mother's qualification",
+        "Grado de educación (Madre)",
         options=list(mother_qualification_options.keys()),
         format_func=lambda x: mother_qualification_options[x]
     )
 
     father_qualification = st.selectbox(
-        "Father's qualification",
+        "Grado de educación (Padre)",
         options=list(mother_qualification_options.keys()),
         format_func=lambda x: mother_qualification_options[x]
     )
 
-    displaced = st.selectbox("Displaced", [0, 1], format_func=lambda x: "Yes" if x == 1 else "No")
+    displaced = st.selectbox("¿Ha sido desplazado?", [0, 1], format_func=lambda x: "Yes" if x == 1 else "No")
 
     marital_status_options = {
         1: "single",
@@ -319,7 +319,7 @@ def predi_uni():
     }
 
     marital_status = st.selectbox(
-        "Marital status",
+        "Estado civil",
         options=list(marital_status_options.keys()),
         format_func=lambda x: marital_status_options[x]
     )
@@ -334,12 +334,12 @@ def predi_uni():
     }
 
     nationality = st.selectbox(
-        "Nationality",
+        "Nacionalidad",
         options=list(nationality_options.keys()),
         format_func=lambda x: nationality_options[x]
     )
 
-    tuition_fees = st.selectbox("Tuition fees up to date", [0, 1], format_func=lambda x: "Yes" if x == 1 else "No")
+    tuition_fees = st.selectbox("¿Está al día con el pago?", [0, 1], format_func=lambda x: "Yes" if x == 1 else "No")
 
     # --------------------------
     # BOTÓN DE PREDICCIÓN
