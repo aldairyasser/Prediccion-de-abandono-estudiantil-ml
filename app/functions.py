@@ -10,7 +10,7 @@ def config_page():
 def home():
     st.subheader("🎓 Predicción abandono o graduación universitario 📚")
 
-    st.image("./img/ML1.png", use_container_width="auto")
+    st.image("app/img/ML1.png", use_container_width="auto")
 
     st.markdown("""
     En este proyecto se desarrolla un **modelo de aprendizaje** capaz de predecir si un estudiante:
