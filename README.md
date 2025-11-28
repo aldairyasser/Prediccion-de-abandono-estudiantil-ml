@@ -27,6 +27,8 @@ https://prediccion-de-abandono-estudiantil.streamlit.app/
   - [🧭 Conclusión](#-conclusión)
   - [👤 Autor](#-autor)
 
+---
+
 ## 📌 Descripción del proyecto
 
 El abandono universitario es una de las principales preocupaciones de instituciones educativas, ya que genera:
