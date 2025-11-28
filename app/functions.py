@@ -83,14 +83,14 @@ def home():
 def carga_datos(): 
     
 #   Posibilidad de que descarguen los datos de negocio
-#    with st.expander("📥 Descargar datos de negocio:"):
-#        with open("../data/1_raw/studient.csv", "rb") as f:
-#            st.download_button(
-#                label="Descargar datos de negocio",
-#                data=f,
-#                file_name="studient.csv",
-#                mime="text/csv"
-#            )
+    with st.expander("📥 Descargar datos de negocio:"):
+        with open("./data/1_raw/studient.csv", "rb") as f:
+            st.download_button(
+                label="Descargar datos de negocio",
+                data=f,
+                file_name="studient.csv",
+                mime="text/csv"
+            )
     uploaded_file = st.file_uploader("Cargar CSV", type=["csv"])
 
     if uploaded_file:
@@ -194,7 +194,7 @@ def predi_uni():
     # --------------------------
     # Carga del modelo
     # --------------------------
-    with open("../models/XGBoostC_4.pkl", "rb") as entrada:
+    with open("./models/XGBoostC_4.pkl", "rb") as entrada:
         modelo = pickle.load(entrada)
 
     st.write("Introduce la información del estudiante para obtener la predicción:")
@@ -386,7 +386,7 @@ def predi_csv():
     # DESCARGA CSV DE EJEMPLO
     # ============================================================
     with st.expander("📥 Descargar datos de ejemplo"):
-        with open("../data/4_test/X_test.csv", "rb") as f:
+        with open("./data/4_test/X_test.csv", "rb") as f:
             st.download_button(
                 label="Descargar datos",
                 data=f,
@@ -412,7 +412,7 @@ def predi_csv():
     # DESCARGA TARGET
     # ============================================================
     with st.expander("📥 Descargar target de ejemplo"):
-        with open("../data/4_test/y_test.csv", "rb") as f:
+        with open("./data/4_test/y_test.csv", "rb") as f:
             st.download_button(
                 label="Descargar target",
                 data=f,
@@ -434,7 +434,7 @@ def predi_csv():
         # ============================================================
         # CARGA DEL MODELO
         # ============================================================
-        with open("../models/XGBoostC_4.pkl", "rb") as entrada:
+        with open("./models/XGBoostC_4.pkl", "rb") as entrada:
             modelo = pickle.load(entrada)
 
         # ============================================================
