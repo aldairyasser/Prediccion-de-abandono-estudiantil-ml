@@ -11,6 +11,25 @@ https://prediccion-de-abandono-estudiantil.streamlit.app/
 
 ---
 
+## Índice
+
+- [🧠 Predicción de Abandono Estudiantil — ML](#-predicción-de-abandono-estudiantil--ml)
+  - [👨‍💻 Despliegue en web 👩‍💻](#-despliegue-en-web-)
+  - [Índice](#índice)
+  - [📌 Descripción del proyecto](#-descripción-del-proyecto)
+  - [📊 Dataset](#-dataset)
+  - [🧠 Modelos empleados](#-modelos-empleados)
+    - [📌 Supervisados (Clasificación)](#-supervisados-clasificación)
+    - [📌 No supervisado](#-no-supervisado)
+  - [📈 Métricas aplicadas](#-métricas-aplicadas)
+  - [🔧 Optimización de modelos](#-optimización-de-modelos)
+  - [🔍 Interpretabilidad (Explainability)](#-interpretabilidad-explainability)
+  - [⚠️ Riesgos y limitaciones](#️-riesgos-y-limitaciones)
+  - [🧪 Instrucciones de ejecución en local](#-instrucciones-de-ejecución-en-local)
+  - [📂 Estructura del repositorio](#-estructura-del-repositorio)
+  - [🧭 Conclusión](#-conclusión)
+  - [👤 Autor](#-autor)
+
 ## 📌 Descripción del proyecto
 
 El abandono universitario es una de las principales preocupaciones de instituciones educativas, ya que genera:
@@ -123,12 +142,12 @@ El modelo final se analizó mediante **SHAP (SHapley Additive Explanations):**
 
 - Riesgo de sesgo demográfico
 
-## 🧪 Instrucciones de ejecución
+## 🧪 Instrucciones de ejecución en local
 
 📦 1. Clonar repositorio
 
 ```
-git clone https://github.com/aldairyasser/Prediccion-de-Abandono-Estudiantil-ML
+git clone https://github.com/aldairyasser/Prediccion-de-abandono-estudiantil-ml
 ```
 
 🐍 2. Crear entorno
@@ -141,16 +160,10 @@ pip install -r requirements.txt
 
 ▶️ 3. Ejecutar Streamlit
 
-Moverte al directorio de la app
+Ejecutar el Front en local
 
 ```
-cd app_streamlit
-```
-
-Ejecutar el Front
-
-```
-streamlit run app.py
+streamlit run app/app.py
 ```
 
 ---
