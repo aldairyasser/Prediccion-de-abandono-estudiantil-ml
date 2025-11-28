@@ -13,9 +13,6 @@ https://prediccion-de-abandono-estudiantil.streamlit.app/
 
 ## Índice
 
-- [🧠 Predicción de Abandono Estudiantil — ML](#-predicción-de-abandono-estudiantil--ml)
-  - [👨‍💻 Despliegue en web 👩‍💻](#-despliegue-en-web-)
-  - [Índice](#índice)
   - [📌 Descripción del proyecto](#-descripción-del-proyecto)
   - [📊 Dataset](#-dataset)
   - [🧠 Modelos empleados](#-modelos-empleados)
